@@ -1,0 +1,28 @@
+/* CSS reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+        v2.0 | 20110126
+        License: none (public domain)
+        */
+
+        /* ================================= */
+        /* =========== MY STYLES =========== */
+        /* ================================= */
+
+        /* ==== MOBILE-FIRST STYLES ==== */
+  
+
+        /* ==== This just sets the width for accuracy to the mock-up ==== */
+       
+        @media screen and (min-width: 760px){
+            .container {
+                width: 706px;
+            }
+        }
+
+        /* ==== DESKTOP STYLES ==== */
+
+        @media screen and (min-width: 1200px){
+            .container {
+                width: 1200px;
+            }
+        }
