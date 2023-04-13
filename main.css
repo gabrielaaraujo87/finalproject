@@ -1,4 +1,7 @@
 
+html {
+  scroll-behavior: smooth;
+}
 /* Welcome pg header image */
     #bgoffice 
       {
@@ -61,11 +64,11 @@
       display: flex;
       flex-wrap: wrap;
       position: absolute;
-      top: 90%;
-      left: 50%;
+      top: 70%;
+      left: 40%;
       transform: translate(-50%, -50%);
-      width: 1200px;
-      height: 610px;
+      width: 1150px;
+      height: 600px;
       background-color: rgba(0, 0, 0, 0.5);
       color: white;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -296,11 +299,12 @@
 /* Style for section 5*/     
     .sec5
     {
+      
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .sec5 .item5:nth-child(1) 
     {
-      width: 1500px;
+      width: 1200px;
       height: 500px;
     }
     .sec5 .item5:nth-child(2)
@@ -374,6 +378,106 @@
       grid-column: 2;
       grid-row: 5;
     }
+/* Style for section 7*/     
+    .sec7 
+    {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .sec7 .item7:nth-child(1)
+    {
+      grid-column: 1;
+      grid-row: 1;
+      font-size: 54px;
+    }
+    .sec7 .item7:nth-child(2)
+    {
+      grid-column: 1;
+      grid-row: 2;
+      font-size: 36px;
+    }
+/* Style for section 8*/ 
+.sec8 
+{
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}    
+.sec8 .item8:nth-child(1)
+{
+  grid-column: 1;
+  grid-row: 1;
+}
+.sec8 .item8:nth-child(2)
+{
+  grid-column: 1;
+  grid-row: 2;
+}
+.sec8 .item8:nth-child(3)
+{
+  grid-column: 1;
+  grid-row: 3;
+}
+.sec8 .item8:nth-child(3)
+{
+  grid-column: 1;
+  grid-row: 3;
+}
+.sec8 .item8:nth-child(4)
+{
+  grid-column: 1;
+  grid-row: 4;
+}
+.sec8 .item8:nth-child(5)
+{
+  grid-column: 1;
+  grid-row: 5;
+}
+.sec8 .item8:nth-child(6)
+{
+  grid-column: 1;
+  grid-row: 6;
+  height: 150px;
+  width: 200px;
+}
+.sec8 .item8:nth-child(7) 
+{
+  grid-column: 1;
+  grid-row: 7;
+  color: #c78c06;
+  background-color: black;
+  font-size: 24px;
+  height: 30px;
+  width: 60px;
+}
+.sec8 .item8:nth-child(8)
+{
+  grid-column: 2;
+  grid-row: 1;
+}
+.sec8 .item8:nth-child(9)
+{
+  grid-column: 2;
+  grid-row: 2;
+}
+.sec9 table, th, td
+{
+  border: 1px solid;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec9 .item9:nth-child(1)
+{
+  background-color: #ffe6ac;
+}
+.sec9 .item9:nth-child(2)
+{
+  background-color: #ffe6ac;
+}
+
 /* Style for the footer*/    
     .footer {
       color: #c78c06;
